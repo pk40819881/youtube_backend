@@ -2,17 +2,27 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/pk40819881/youtube_backend#readme",
+  "bugs": {
+    "url": "https://github.com/pk40819881/youtube_backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk40819881/youtube_backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.4"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "express": "^5.2.1"
   }
 }
